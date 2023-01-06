@@ -174,11 +174,15 @@ form{
 }
 .search h1{
     text-align: center;
+    padding:10px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 30px;
 }
 .search-all{
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #6F4E37;
+    background-color:#6F4E37;
     padding: 30px;
     padding-top: 20px;
 }
@@ -216,38 +220,68 @@ form{
     width: 30%;
 }
 .info{
-    display: flex;
+    display: grid;
     justify-content: center;
     background-color: #6F4E37;
     flex-direction: column;
-    align-items: center;
+    gap: 10px;
+    padding: 5px;
    
 }
 .support{
     display: flex;
-    border: 2px solid #4d3727; 
+    border: 2px solid #b86d38; 
     align-items: center;
+    background-color: #352418;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 550;
+    font-size: 15px;
     
 }
 .support1{
     display: flex;
-    border: 2px solid #4d3727; 
+    border: 2px solid#b86d38 ; 
     align-items: center;
+    justify-content: space-between;
+    background-color: #352418;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 550;
+    font-size: 15px;
 }
 .support2{
     display: flex;
-    border: 2px solid #4d3727; 
+    border: 2px solid #b86d38; 
     align-items: center;
+    justify-content: space-between;
+    background-color: #352418;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 550;
+    font-size: 15px;
 }
 .support3{
     display: flex;
-    border: 2px solid #4d3727; 
+    border: 2px solid #b86d38; 
     align-items: center;
+    justify-content: space-between;
+    background-color: #352418;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 550;
+    font-size: 15px;
 }
 .support4{
     display: flex;
-    border: 2px solid #4d3727; 
+    border: 2px solid #b86d38; 
     align-items: center;
+    justify-content: space-between;
+    background-color: #352418;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 550;
+    font-size: 15px;
 }
 .info p{
    
@@ -258,6 +292,10 @@ form{
 span{  
     padding: 20px;
     background-color: tomato;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
 }
 form{
     display: grid;   
@@ -367,6 +405,7 @@ form{
 .lg{
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 .ql a{
     text-decoration: none;
@@ -382,6 +421,7 @@ form{
     justify-content: space-between;
     align-items: flex-start;
     padding: 5px;
+    gap: 5px;
    
    
 }
@@ -409,16 +449,27 @@ h4{
     color: #cdb9ab;
     padding: 4px;
 }
+
+.con{
+    width: 20%; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
 .con >h1{
-    font-size: 20px;
     color: #fff;
     
 }
-.con{
-    width: 20%;
+.con > p{
+    font-size: 13px;
+    font-weight: 800;
 }
 .mia{
-    align-items: center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    
 }
 .lst{
     display: flex;
@@ -431,4 +482,21 @@ button{
     border: none;
     color: #fff;
     margin-right: 2px;
+}
+#rem{
+    outline: none;
+    border-bottom: none;
+}
+.con p{
+    color: #cdb9ab;
+    font-size: 300;
+    font-weight: 500;
+}
+.ic{
+  
+    border: 2px solid rgb(167, 23, 23);
+    border-radius: 50%;
+    width: 10%;
+    margin: 0 auto;
+    align-items: center;
 }
