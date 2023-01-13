@@ -240,24 +240,26 @@ form{
     width: 30%;
 }
 .info{
-    display: grid;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
     background-color: #6F4E37;
     flex-direction: column;
     gap: 10px;
     padding: 5px;
+    width: 80%;
+    margin: 0 auto;
    
 }
 .support{
     display: flex;
     border: 2px solid #b86d38; 
+    justify-content: space-between;
     align-items: center;
     background-color: #352418;
     color: #fff;
     border-radius: 8px;
     font-weight: 550;
     font-size: 15px;
-    
 }
 .support1{
     display: flex;
@@ -280,6 +282,17 @@ form{
     border-radius: 8px;
     font-weight: 550;
     font-size: 15px;
+    flex-direction: column;
+}
+.lrm{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#av{
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 0.8;
 }
 .support3{
     display: flex;
